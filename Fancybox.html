@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancybox</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="dist/jquery.fancybox.min.css">
+
+    <style>
+        img {
+            width: 200px;
+            height: 150px;
+        }
+
+        #kotak
+        {
+            width: 280px;
+            height: 280px;
+            background-color: orangered;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            display: none;
+            overflow: hidden;
+        }
+
+        #text
+        {
+           margin: 30% auto;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    
+    <h2>Belajar Fancybox</h2>
+
+    <h3>Gallery</h3>
+
+    <a href="Gambar/wallpaper-background-keren (1) - Copy.jpg" data-fancybox="Album background" data-caption="sepeda">
+        <img src="Gambar/wallpaper-background-keren (1) - Copy.jpg" alt="sepeda"></a>
+
+    <a href="Gambar/wallpaper-background-keren (5) - Copy.jpg" data-fancybox="Album background" data-caption="sepeda">
+        <img src="Gambar/wallpaper-background-keren (5) - Copy.jpg" alt="sepeda"></a>
+    <hr>
+
+    <h3>Rafting pangalengan</h3>
+
+    <a href="Gambar/IMG_0303.JPG" data-fancybox="Rafting">
+        <img src="Gambar/IMG_0303.JPG" alt=""></a>
+
+    <a href="Gambar/IMG_0313.JPG" data-fancybox="Rafting">
+        <img src="Gambar/IMG_0313.JPG" alt=""></a>
+
+    <a href="Gambar/IMG_0319.JPG" data-fancybox="Rafting">
+        <img src="Gambar/IMG_0319.JPG" alt=""></a>
+
+    <a href="Gambar/IMG_0327.JPG" data-fancybox="Rafting">
+        <img src="Gambar/IMG_0327.JPG" alt=""></a><br> <hr>
+
+    <h3>Video Youtube</h3>
+
+    <a href="https://www.youtube.com/watch?v=8Ms2jyKZZQc&t=12s" data-fancybox data-caption="Vidio Rafting situ cileunca">
+    <img src="Gambar/IMG_0303.JPG" alt=""></a>
+
+    <h3>Inline</h3>
+
+    <a href="#" data-src="#kotak" data-fancybox><h4>Tampil kotak</h4></a>
+
+    <div id="kotak">
+        <h2 id="text">Kotak</h2>
+        <p id="text">Aku Tampil dalam bentuk POP UP</p>
+    </div>
+
+    <!--Jquery-->
+    <script src="jq.js"></script>
+    <script src="dist/jquery.fancybox.min.js"></script>
+    <script>
+       
+    
+    </script>
+</body>
+
+</html>
